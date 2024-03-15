@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .container .cabecalho h1 {
+        text-align: center;
+    }
+
+    .container .jinx {
+        width: 80%;
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-main .container-perguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-main .container-perguntas p {
+        align-self: flex-start;
+    }
+    
+    .container-main .container-perguntas .cartoes {
+        max-width: 400px;
+        gap: 20px;
+    }
+
+}

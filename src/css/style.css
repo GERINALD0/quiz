@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(45deg, rgb(1, 0, 7), rgb(1, 1, 65), rgb(34, 38, 81), rgb(104, 104, 128), rgb(199, 197, 226));
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.553);
+    position: relative;
+    padding: 2rem;
+}
+
+.container .jinx {
+    position: absolute;
+    right: 0;
+    top: -5rem;
+    width: 80%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.container .resultado {
+    display: none;
+    background-color: rgb(5, 74, 96);
+    max-width: 400px;
+    padding: 1.1rem;
+    margin: 2rem auto;
+    border-radius: 20px;
+    
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.container .resultado span {
+    color: rgb(159, 215, 249);
+    font-size: 1.8rem;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-main h2 {
+    margin-bottom: 2rem;
+}
+
+.container-main .container-perguntas {
+    padding: 20px;
+    text-align: start;
+}
+
+.container-main .container-perguntas .cartoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    max-width: 700px;
+    padding: 20px;
+}
+
+.container-main .container-perguntas .cartoes .cartao {
+    background-color: rgb(5, 74, 96);
+    width: 140px;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+    transition: .3s ease-in-out;    
+}
+
+.container-main .container-perguntas .cartoes .cartao:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.container-main .container-perguntas .cartoes .cartao p {
+    text-align: center;
+    padding: 5px;
+}
+
+.container-main .container-perguntas .cartoes .cartao img {
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+    padding: 10px;
+}
+
+.container-main button {
+    background-color: rgb(8, 96, 96);
+    width: 10rem;    
+    height: 3rem;
+    border-radius: 10px;
+
+    font-size: 1.2em;
+    margin: 20px auto;
+    align-self: center;
+    transition: .2s ease-in-out;
+}
+
+.container-main button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
