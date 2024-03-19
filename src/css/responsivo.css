@@ -1,11 +1,15 @@
 @media (max-width: 900px) {
-    .container .cabecalho h1 {
-        text-align: center;
+    .container h1 {
+        font-size: 3rem;
     }
 
     .container .jinx {
         width: 80%;
         top: 0;
+    }
+
+    .container .resultado span {
+        font-size: 1.9rem;
     }
 }
 
