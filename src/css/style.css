@@ -6,6 +6,10 @@ body {
     background: rgba(0, 0, 0, 0.553);
     position: relative;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container h1{
@@ -56,7 +60,14 @@ body {
 
 .container-main .container-perguntas {
     padding: 20px;
-    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-main .container-perguntas .pergunta {
+    font-size: 1.2rem;
 }
 
 .container-main .container-perguntas .cartoes {
